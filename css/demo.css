@@ -1,0 +1,54 @@
+/*!
+ * Styles intended only for this demo page. If you want to
+ * try and use Avgrund in your project, don't include these.
+ */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+
+html {
+	background: url(http://subtlepatterns.com/patterns/dark_dotted.png) repeat #222;
+}
+
+
+
+
+
+button {
+	border: 0px;
+	padding: 8px 20px;
+	margin: -5px 0px;
+	border-radius: 1px;
+
+	cursor: pointer;
+	color: #fff;
+	background: #7aa76d;
+	font-size: 25px;
+	outline: none;
+
+	-webkit-transition: 0.15s background ease;
+	   -moz-transition: 0.15s background ease;
+	    -ms-transition: 0.15s background ease;
+	     -o-transition: 0.15s background ease;
+	        transition: 0.15s background ease;
+}
+	button:hover {
+		background: #91cd85;
+	}
+	button:active {
+		background: #60895a;
+	}
+	button+button {
+		margin-left: 5px;
+	}
+
+
+
+body {
+	background: #fff;
+
+}
