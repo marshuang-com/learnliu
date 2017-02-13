@@ -1,5 +1,7 @@
-@import url(http://fonts.googleapis.com/earlyaccess/notosanstc.css);
-@import url("font-awesome.min.css");
+/*!
+ * Styles intended only for this demo page. If you want to
+ * try and use Avgrund in your project, don't include these.
+ */
 
 * {
 	margin: 0;
@@ -12,12 +14,12 @@ html {
 	background: url(http://subtlepatterns.com/patterns/dark_dotted.png) repeat #222;
 }
 
-
 body,input,textarea,select
-{
-	font-family: 'Noto Sans TC', sans-serif;
+	{
+		font-family: 'Noto Sans TC', sans-serif;
 
-}
+	}
+
 
 
 
